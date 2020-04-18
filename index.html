@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Matthew Quezada Profile Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="architecture.png">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>Matthew Quezada</h1>
+      <p>Realestate Investor // Construction Manager // Web Developer<br>Draftsman // Business Owner // Stock Investor // Entrepreneur</p>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="circular" src="images/matthew-profile.jpg" alt="Matthews Profile Picture">
+        <h2>About Me.</h2>
+        <p class="intro">I am an Entrepreneur and founder of BuiltRyte Construction & Develoment. We focus on residential properties, additions, new construction, land development and remodels. Additionaly,
+          I develop websites for small business and am the in house plan draftsman for my company.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="con-services" src="images/con-mngmnt.jpg" alt="Construction Management">
+          <h3>Construction Services</h3>
+          <p>At BuiltRyte Construction & Development we offer a wide variety of services ranging from design & development to building and managing the project from start to finish. If developing our own land
+            we are sure to construct within zoning and city requirements. When working with clients whether that be remodeling exisiting, additions or new construction we work closely with the upmost professionalism
+            from initial design and plan drafts to construction and final turn over. We strive for complete client satisfaction and accept nothing less.</p>
+        </div>
+        <div class="skill-row">
+          <img class="web-development" src="images/web-development.jpg" alt="Web development">
+          <h3>Web Development</h3>
+          <p>At BuiltRyte Construction & Development we offer a wide variety of services ranging from design & development to building and managing the project from start to finish. If developing our own land
+            we are sure to construct within zoning and city requirements. When working with clients whether that be remodeling exisiting, additions or new construction we work closely with the upmost professionalism
+            from initial design and plan drafts to construction and final turn over. We strive for complete client satisfaction and accept nothing less.</p>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you need help on your next project.</h3>
+        <p class="contact-msg">Feel free to contact me via email provided below. Additionally, check out our website, instagram, twitter and linkedin account for additional information.</p>
+        <a class="btn" href="mailto:idc.place@yahoo.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/matthew-quezada-3716b99a/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.instagram.com/idc_construction/">Instagram</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© 2020 Matthew T Quezada @ BuiltRyte</p>
+    </div>
+  </body>
+</html>
+
+
+
+
+<!--Favicon-(website tab image) us https://www.favicon.cc/ and you can create a brand new favicon to implement. Upon creation-download-save in css folder-create new link relationship to "icon"
+    and href to "favicon.ico" (the file name). Can also use this website for favicon's or general characters or images around your website. https://www.flaticon.com/ or https://giphy.com/-->
+<!--Div(Divide and structure)- We started our h1 and p in the body but want to put the two together with a box in the center of the website. We will do this with "div" (used to divide and structure also known as content division element)
+    which will only work when using a css element implementation.-->
+<!--Margins-By default browsers have pre set conditiosn such as margins. We need to combat those by applying or own through the styles tab. We can set 0px on margin for the body which will apply to all
+    4 sides as well as 0px to h1 which can have preset conditions as well-->
+<!--Box model(layout and apperance)-We have padding, boarder and margin all of which can be adjusted for page layout. We can implement blank div boxes and style them to create an image on our
+    website for viewing purposes. Style background color as well as px width and height. We can stager these items as we please using margins and basic math-->
+<!--Display-by default some elements are known as block elements so they block out other items from sitting next to them such as p, h1 through h6, div, ol, ul, li and forms. You can change this <body>
+      applying the display element within and applying "inline" such as display:inline;. Additionally you can apply "inline-block" to the display element which allows you to have to block items
+      next to eachother as well as change the width of their block. The last display element is none which esentially hides the code you have entered from populating on the browser. Simply apply
+      a class=xyz to the item you want to target and in the styles indicate .xyz{display:none;} and that txt will be as if never entered, but still viewable through coding software. Alternatively,
+      you can do the same with "visibility:hidden;" which line none wont show on the browser, BUT will take up the space as if it were there. It leaves a blank space.-->
+<!--Span-because there are block elements, we use span which will select a part of txt witin that block element you want to focus on. Select it, apply a class and then style it in the
+    styles sheet as you desire. Span is known as an inline display element and only take up as much space as they need t obe and is like div's in the sense of as it only works in css-->
+<!--Position-you can set the positions or change the default layout of various elements. For example <div><h1><span></span></h1></div> div is furthest from the viewer. Div, then h1 block then span is closest to viewer.
+    In position we have static, relative, absolute and fixed positions. Static is go along with default rules and you dont change anything at all. Relative allows us to position the selected element relative
+    to the position it would have been in static position. if we enter img{position:relative left:30px;} we are telling the image to move 30px away from the left which will move it to the right. There are
+    4 of these coordinate values (top,left,bottom,right). When dealing with relative position it will not affect the position of anything else on the screen. Also, when changing the coordinate properties you are
+    taking the top for example and saying make the top of this image 50px or take the top of where that image used to be and give a 50px margin from the top. WHEN YOU WANT MULTIPLE DIV OR IMAGES
+    IN THE SAME LINE USE THE INLINE-BLOCK.
+    Absolute position- if we have an image within a Div and apply the absolute position it will shift the element or the image in this case 30px relative to its parent or in this case the div.
+    Fixed position-when applied with the location via coordinates, the element fixed will do that exactly, remain fixed as you navigate the website.-->
+<!--Width of element- You can apply a width to h1 for example of 10% which is 10% width of the entire page. This allocates a box to this element that is 10% of the page size and can be viewed through the browswer
+    developer tools. Then we can apply margin properties seen next note.-->
+<!--Centering elements on your web page can best be done through the property called txt align and has to be set within the parent container. Another way to center an element is to use
+    margin: w x y z when applied you can center an element horizontally or vertically. By default you enter px values top to clockwise so top,right,bottom,left. Visit for margin info:https://developer.mozilla.org/en-US/docs/Web/CSS/margin  -->
+<!--We want to adjust the layout of the cloud adjacent to the mountain so the mountain can sit ceneter of the website as they are acting as line blockers currently. We assign a class to the cloud
+    img and in styles swithc the position from static to absolute-->
+<!--Position relative- in order to set an elements position relative, its parent has to be set to relative or that elements position will adjust and be set relative to the body. For example, we want our bottom
+    clouds position relative to the top container and not the entire body. We set the position of the top container to relative.-->
+<!--Styling txt- we use font-family element and choose a font type. We only will use sans-serif, serif and monospace which is each of the characters inside the txt take up the same amount of space in a text. Monospace is
+    typically used only for coding. If we apply fontfamily to the body our entire website will change. By default we have a serif family. By default its either ariel or times new roman. If you wanted another font then
+    type its name followed by comma followed by sans-serif or just serif. Some websites cant read fonts implemented so you can pull from https://www.w3schools.com/cssref/css_websafe_fonts.asp to be sure its universally read by browsers.-->
+<!--Can also use https://fonts.google.com/ for fonts desired. Select the various fons you want for different aspects of yoru website (h1, body etc etc...) add to families and select embed. Copy the link and past into head section above. Go
+    into your styles sheet and copy from fonts.google the font family link and apply to desired elements.-->
+<!--Txt Generator- Should you need to take up space prior to editing https://loremipsum.io/-->
+<!--Font properties-apply font-size: 90px (px are a static value). Make sure your browser is at 100% zoom so we see exactly by default what all see. but what if users change their browser settings to make font size small. This method of
+    entering font size is not a dynamic size. To make dynamic we instead of using pixles we can use percentage. 100%=16px size therefore if we want 90px we take 90/16=562.5% to get the equivalent of 90px. Additionaly we can use the "em" unit for
+    font size. 1em=16px sooo 16px=100%=1em. EXAMPLE: 90px=5.625em. We want to use em because if someone changes the website settings they will dynamically change with the browswer seeting changes. It makes the website more accessable to everybody. When
+    using em or %'s that value is inherited meaning if we go into the body and specify a value for everything on the website to be 2em and then go into h1 and leave the font size as the previous dynamic size of 5.625em and refresh we see the font is huge
+    which is because the font size gets inherited and added to the parent so the h1 value is being added to the body value so its showing as 7.625em. Same applies to percentages. This can be dangerous as when developing a long code you can accidentally link
+    two em values and get stuck trying to find the issue. Now we can use "rem" (root-em) which will make the value ignore the parent value. ALWAYS TRY TO USE "REM"-->
+<!--Floating- We can make the image float to the left of our txt and have it wrap by changing the float property. By default it will sit left and txt will wrap and go under the image even. We can apply margins to the image so the txt is not sitting
+    directly on the txt.  -->
+<!--Clear- This property works in conjunction with floating (anti floating property) and will not allow floating to happen to specific txt you do not want to wrap around the image. EXAMPLE We have to assign a class to the <p> we want to not to
+    the right of the image. In the styles you apply clear:left; which is telling it to make sure that left margin is clear and to not wrap around ANYTHING.-->
+<!--BE SURE TO ONLY USE FLOAT FOR WHEN WRAPING TXT IS DESIRED AND NOT FOR POSITIONING. USE POSITIONING PROPERTIES FOR POSITIONING OF ELEMENTS AND IMAGES.-->
+<!--We applied a width of 30% to our intro class so that it bundles up the text furthermore rather than a long sentance thats difficult to read. We then set the margin to auto so it centers within its parent at 30% its width.-->
+<!--button- use https://cssbuttoncreator.com/-->
+<!---->
+<!---->
+<!---->
+<!---->
